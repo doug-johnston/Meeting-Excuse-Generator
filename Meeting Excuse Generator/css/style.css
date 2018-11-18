@@ -1,0 +1,68 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: black;
+    color: gold;
+    font-size: 36px;
+  }
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: gold;
+    font-size: 36px;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+p{
+    font-size: 64px;
+  }
+header{
+    height: 30px;
+    background-color: black,
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    color: gold;
+    background-color: gold;
+    border: none;
+    border-radius: 50px;
+}
+button:focus{
+    outline: none;
+}
+button:hover{
+    background-color: black;
+    color: gold;
+}
+
+button:hover .icon{
+    color: gold;
+}
+span{
+    color: gold;
+}
+.icon{
+    color: black;
+}
